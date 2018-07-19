@@ -1,0 +1,28 @@
+[ 2017-11-17T19:27:04+08:00 ] 172.18.63.168 111.22.117.137 POST /public/admin/news/upload.html
+[ error ] [2]mkdir(): Permission denied[/webdata/thinkphp/library/think/File.php:120]
+
+---------------------------------------------------------------
+[ 2017-11-17T20:29:34+08:00 ] 172.18.63.168 111.22.117.137 GET /admin/deal/del.html?id=11
+[ error ] [2]unlink(/webdata/public/static/index/images/20171115\fefa8609fa62042fab6c6c08b0d9b8ee.jpg): No such file or directory[/webdata/application/admin/controller/Deal.php:41]
+
+---------------------------------------------------------------
+[ 2017-11-17T20:31:50+08:00 ] 172.18.63.168 111.8.131.137 POST /admin/quality/upload.html
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'weiyi' doesn't have a default value[/webdata/thinkphp/library/think/db/Connection.php:405]
+
+---------------------------------------------------------------
+[ 2017-11-17T20:32:45+08:00 ] 172.18.63.168 111.22.117.137 POST /admin/quality/upload.html
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'weiyi' doesn't have a default value[/webdata/thinkphp/library/think/db/Connection.php:405]
+
+---------------------------------------------------------------
+[ 2017-11-17T20:34:48+08:00 ] 172.18.63.168 111.8.131.137 POST /admin/quality/upload.html
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'weiyi' doesn't have a default value[/webdata/thinkphp/library/think/db/Connection.php:405]
+
+---------------------------------------------------------------
+[ 2017-11-17T20:37:14+08:00 ] 172.18.63.168 111.22.117.137 POST /admin/quality/upload.html
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'weiyi' doesn't have a default value[/webdata/thinkphp/library/think/db/Connection.php:405]
+
+---------------------------------------------------------------
+[ 2017-11-17T20:38:06+08:00 ] 172.18.63.168 111.22.117.137 POST /admin/quality/upload.html
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'weiyi' doesn't have a default value[/webdata/thinkphp/library/think/db/Connection.php:405]
+
+---------------------------------------------------------------

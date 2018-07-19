@@ -1,0 +1,57 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+	<link rel="stylesheet" type="text/css" href="__STATIC__/index/style/base.css">
+	<link rel="stylesheet" type="text/css" href="__STATIC__/index/style/library_base.css">
+	<script type="text/javascript" src="__STATIC__/index/js_lp/library_base.js"></script>
+	<script type="text/javascript" src="__STATIC__/index/js_lp/jq_lp.js"></script>
+	<script type="text/javascript" src="__STATIC__/index/js_lp/anima.js"></script>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i>每个系列的产品推荐要满足四个，特别是最新的系列(按右边按钮可以刷新)<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"> <a class="btn btn-primary radius" onclick="o2o_s_edit('添加上传','{:url('category/add')}','','300')" href="javascript:;"><i class="Hui-iconfont">&#xe600;</i> 添加</a></span> <span class="r"></span> </div>
+
+ <div class="mt-20">
+    <table class="table table-border table-bordered table-bg table-hover table-sort">
+      <thead>
+        <tr class="text-c">
+          <th>ID</th>
+          <th>系列</th>
+          <th>图片</th>
+          <th>产品名</th>
+          <th>是否推荐</th>
+          <th>删除</th>
+        </tr>
+      </thead>
+      <tbody>
+      	{foreach name="results" item="vo"}
+      <tr class="text-c">
+      	<td>{$key+1}</td>
+      	<td>{$vo.category}</td>
+      	<td width="300" height="300"><img width="300" height="300" src="__STATIC__/index/images/{$vo.savename}"></td>
+      	<td>{$vo.pro_name}</td>
+        <?php
+          if($intid == -1)
+            $intid = intval($vo['id']);  
+          if($rec == 2)
+          $rec = intval($vo['recommend']);
+        ?>
+      	<td>{if condition="$rec eq 1 and $vo.id eq $intid"}推荐&nbsp;<p><a href="{:url('category/index',['recommend'=>0,'id'=>$vo.id])}">转为不推荐</a></p>
+        {elseif condition="$rec eq 0 and $vo.id eq $intid"/}不推荐&nbsp;<p><a href="{:url('category/index',['recommend'=>1,'id'=>$vo.id])}">转为推荐</a></p>
+      	{else /}不推荐&nbsp;<p><a href="{:url('category/index',['recommend'=>1,'id'=>$vo.id])}">转为推荐</a></p>
+      	{/if}
+        </td>
+        <td class="td-manage"><a style="text-decoration:none" class="ml-5"  href="{:url('category/dele', ['id'=>$vo.id,'savename'=>$vo.savename])}" title="直接删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+      </tr>
+      {/foreach}       
+      </tbody>
+    </table>
+  </div>
+ 
+</div>
+
+<!--包含头部文件-->
+{include file="public/footer" /}
+
+</body>
+</html>

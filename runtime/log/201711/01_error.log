@@ -1,0 +1,136 @@
+[ 2017-11-01T18:46:22+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]Array to string conversion[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:64]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:01:28+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]Array to string conversion[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:64]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:08:37+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [4]语法错误: unexpected ''recommend'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'[G:\wamp\www\xiangmu\application\admin\controller\Category.php:31]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:09:05+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义数组索引: recommend[G:\wamp\www\xiangmu\application\admin\controller\Category.php:22]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:09:26+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义数组索引: recommend[G:\wamp\www\xiangmu\application\admin\controller\Category.php:22]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:09:42+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: recommend[G:\wamp\www\xiangmu\application\admin\controller\Category.php:32]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:11:05+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义数组索引: recommend[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:63]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:17:39+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义数组索引: recommend[G:\wamp\www\xiangmu\application\admin\controller\Category.php:22]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:18:00+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义数组索引: recommend[G:\wamp\www\xiangmu\application\admin\controller\Category.php:20]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:19:13+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: rec[G:\wamp\www\xiangmu\application\admin\controller\Category.php:33]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:19:50+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义数组索引: recommend[G:\wamp\www\xiangmu\application\admin\controller\Category.php:18]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:20:12+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义数组索引: recommend[G:\wamp\www\xiangmu\application\admin\controller\Category.php:19]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:24:45+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: rec[G:\wamp\www\xiangmu\application\admin\controller\Category.php:38]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:24:57+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: rec[G:\wamp\www\xiangmu\application\admin\controller\Category.php:37]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:37:18+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: intrec[G:\wamp\www\xiangmu\application\admin\controller\Category.php:37]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:37:53+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: intid[G:\wamp\www\xiangmu\application\admin\controller\Category.php:39]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:41:42+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html?recommend=0
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\application\admin\controller\Category.php:28]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:42:25+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html?recommend=0
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\application\admin\controller\Category.php:28]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:42:57+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html?recommend=1&id=9
+[ error ] [8]Use of undefined constant id - assumed 'id'[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:63]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:46:04+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[G:\wamp\www\xiangmu\application\admin\controller\Category.php:33]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:55:29+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/edit.html
+[ error ] [8]未定义变量: category[G:\wamp\www\xiangmu\runtime\temp\bce60ebd9441c47291a386cdb07176a1.php:40]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:57:11+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/edit.html
+[ error ] [8]未定义变量: category[G:\wamp\www\xiangmu\runtime\temp\bce60ebd9441c47291a386cdb07176a1.php:40]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:58:46+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/edit.html
+[ error ] [8]未定义变量: categorys[G:\wamp\www\xiangmu\runtime\temp\bce60ebd9441c47291a386cdb07176a1.php:49]
+
+---------------------------------------------------------------
+[ 2017-11-01T19:59:23+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/edit.html
+[ error ] [8]未定义变量: category[G:\wamp\www\xiangmu\runtime\temp\bce60ebd9441c47291a386cdb07176a1.php:56]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:13:41+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/save.html
+[ error ] [1]Call to undefined function app\admin\controller\name()[G:\wamp\www\xiangmu\application\admin\controller\Category.php:123]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:15:39+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/save.html
+[ error ] [1]Call to undefined function app\admin\controller\name()[G:\wamp\www\xiangmu\application\admin\controller\Category.php:124]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:19:25+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/save.html
+[ error ] [1]Call to undefined function app\admin\controller\name()[G:\wamp\www\xiangmu\application\admin\controller\Category.php:125]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:20:52+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/save.html
+[ error ] [1]Call to undefined function app\admin\controller\success()[G:\wamp\www\xiangmu\application\admin\controller\Category.php:126]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:40:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=8
+[ error ] [2]unlink(): Invalid argument[G:\wamp\www\xiangmu\application\admin\controller\Category.php:140]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:41:05+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: intrec[G:\wamp\www\xiangmu\application\admin\controller\Category.php:41]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:43:29+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: intrec[G:\wamp\www\xiangmu\application\admin\controller\Category.php:41]
+
+---------------------------------------------------------------
+[ 2017-11-01T20:43:31+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: intrec[G:\wamp\www\xiangmu\application\admin\controller\Category.php:41]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:04:36+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]Use of undefined constant recommend - assumed 'recommend'[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:65]
+
+---------------------------------------------------------------
+[ 2017-11-01T21:08:27+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: intrec[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:67]
+
+---------------------------------------------------------------

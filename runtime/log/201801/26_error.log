@@ -1,0 +1,60 @@
+[ 2018-01-26T13:56:37+08:00 ] 172.17.195.153 111.8.106.6 POST /admin/deal/upload.html
+[ error ] [2]mkdir(): Permission denied[/webdata/thinkphp/library/think/File.php:120]
+
+---------------------------------------------------------------
+[ 2018-01-26T14:10:06+08:00 ] 172.17.195.153 111.22.87.6 POST /admin/deal/upload.html
+[ error ] [2]mkdir(): Permission denied[/webdata/thinkphp/library/think/File.php:120]
+
+---------------------------------------------------------------
+[ 2018-01-26T14:11:46+08:00 ] 172.17.195.153 111.8.106.6 POST /admin/deal/upload.html
+[ error ] [2]mkdir(): Permission denied[/webdata/thinkphp/library/think/File.php:120]
+
+---------------------------------------------------------------
+[ 2018-01-26T14:16:06+08:00 ] 172.17.195.153 111.8.106.6 POST /admin/category/upload.html
+[ error ] [2]mkdir(): Permission denied[/webdata/thinkphp/library/think/File.php:120]
+
+---------------------------------------------------------------
+[ 2018-01-26T15:06:54+08:00 ] 172.17.195.153 111.8.106.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T15:07:51+08:00 ] 172.17.195.153 111.22.87.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T15:56:25+08:00 ] 172.17.195.153 111.8.106.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:03:47+08:00 ] 172.17.195.153 111.22.87.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:07:11+08:00 ] 172.17.195.153 111.8.106.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:12:05+08:00 ] 172.17.195.153 111.8.106.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:18:00+08:00 ] 172.17.195.153 111.22.87.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:26:41+08:00 ] 172.17.195.153 111.8.106.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:26:42+08:00 ] 172.17.195.153 111.8.106.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:26:42+08:00 ] 172.17.195.153 111.22.87.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------
+[ 2018-01-26T16:28:38+08:00 ] 172.17.195.153 111.8.106.6 POST /index/index/xl.html
+[ error ] [8]未定义变量: xin[/webdata/application/index/controller/Index.php:151]
+
+---------------------------------------------------------------

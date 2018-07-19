@@ -1,0 +1,36 @@
+[ 2017-11-08T13:11:11+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]未定义变量: xin[G:\wamp\www\xiangmu\application\index\controller\Index.php:136]
+
+---------------------------------------------------------------
+[ 2017-11-08T13:11:58+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]未定义变量: xin[G:\wamp\www\xiangmu\application\index\controller\Index.php:136]
+
+---------------------------------------------------------------
+[ 2017-11-08T15:53:48+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:14:50+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]未定义变量: lunbo[G:\wamp\www\xiangmu\runtime\temp\b852c931383ec78e1fa7858411990aac.php:146]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:14:53+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]未定义变量: lunbo[G:\wamp\www\xiangmu\runtime\temp\b852c931383ec78e1fa7858411990aac.php:146]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:27:48+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [1]Call to undefined method app\index\controller\Index::JSON()[G:\wamp\www\xiangmu\application\index\controller\Index.php:135]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:27:51+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [1]Call to undefined method app\index\controller\Index::JSON()[G:\wamp\www\xiangmu\application\index\controller\Index.php:135]
+
+---------------------------------------------------------------
+[ 2017-11-08T19:15:25+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ error ] [8]Array to string conversion[G:\wamp\www\xiangmu\runtime\temp\b852c931383ec78e1fa7858411990aac.php:328]
+
+---------------------------------------------------------------
+[ 2017-11-08T19:16:09+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ error ] [4]语法错误: unexpected ';'[G:\wamp\www\xiangmu\runtime\temp\b852c931383ec78e1fa7858411990aac.php:328]
+
+---------------------------------------------------------------

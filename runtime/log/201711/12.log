@@ -1,0 +1,1162 @@
+[ 2017-11-12T12:44:11+08:00 ] ::1 ::1 GET /xiangmu/public/admin
+[ log ] localhost/xiangmu/public/admin [运行时间：0.376021s][吞吐率：2.66req/s] [内存消耗：1,685.89kb] [文件加载：47]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:12+08:00 ] ::1 ::1 GET /xiangmu/public/admin/login/index.html
+[ log ] localhost/xiangmu/public/admin/login/index.html [运行时间：0.197011s][吞吐率：5.08req/s] [内存消耗：1,656.37kb] [文件加载：45]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\wamp\www\xiangmu\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:15+08:00 ] ::1 ::1 GET /xiangmu/public/
+[ log ] localhost/xiangmu/public/ [运行时间：0.591633s][吞吐率：1.69req/s] [内存消耗：2,450.34kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:18+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html
+[ log ] localhost/xiangmu/public/index/index/enjoy.html [运行时间：0.367021s][吞吐率：2.72req/s] [内存消耗：2,350.16kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:20+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ log ] localhost/xiangmu/public/index/index/index.html [运行时间：0.471027s][吞吐率：2.12req/s] [内存消耗：2,450.61kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:25+08:00 ] ::1 ::1 GET /xiangmu/public/
+[ log ] localhost/xiangmu/public/ [运行时间：0.472027s][吞吐率：2.12req/s] [内存消耗：2,450.34kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:29+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ log ] localhost/xiangmu/public/index/index/xl.html [运行时间：0.223405s][吞吐率：4.48req/s] [内存消耗：2,331.37kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'xl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+  'xilie' => '典雅',
+)
+[ info ] [ RUN ] app\index\controller\Index->xl[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:30+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ log ] localhost/xiangmu/public/index/index/xl.html [运行时间：0.232013s][吞吐率：4.31req/s] [内存消耗：2,332.20kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'xl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+  'xilie' => '仙剑',
+)
+[ info ] [ RUN ] app\index\controller\Index->xl[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:32+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ log ] localhost/xiangmu/public/index/index/xl.html [运行时间：0.179605s][吞吐率：5.57req/s] [内存消耗：2,330.97kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'xl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+  'xilie' => '爷们',
+)
+[ info ] [ RUN ] app\index\controller\Index->xl[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:32+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ log ] localhost/xiangmu/public/index/index/xl.html [运行时间：0.172803s][吞吐率：5.79req/s] [内存消耗：2,332.20kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'xl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+  'xilie' => '仙剑',
+)
+[ info ] [ RUN ] app\index\controller\Index->xl[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:44:35+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html
+[ log ] localhost/xiangmu/public/index/index/enjoy.html [运行时间：0.279016s][吞吐率：3.58req/s] [内存消耗：2,350.16kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:52:48+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ log ] localhost/xiangmu/public/index/index/index.html [运行时间：0.486028s][吞吐率：2.06req/s] [内存消耗：2,450.61kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T12:52:51+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html
+[ log ] localhost/xiangmu/public/index/index/news.html [运行时间：0.496028s][吞吐率：2.02req/s] [内存消耗：2,466.63kb] [文件加载：53]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=fl5mrc4jn6in1u8gg3f599tg07',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->news[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\news.html [ array (
+  0 => 'lunbo',
+  1 => 'link',
+  2 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:10:52+08:00 ] ::1 ::1 GET /xiangmu/public/admin
+[ log ] localhost/xiangmu/public/admin [运行时间：0.167010s][吞吐率：5.99req/s] [内存消耗：1,685.85kb] [文件加载：47]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:10:52+08:00 ] ::1 ::1 GET /xiangmu/public/admin/login/index.html
+[ log ] localhost/xiangmu/public/admin/login/index.html [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：1,656.37kb] [文件加载：45]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\wamp\www\xiangmu\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:10:55+08:00 ] ::1 ::1 GET /xiangmu/public/
+[ log ] localhost/xiangmu/public/ [运行时间：0.389621s][吞吐率：2.57req/s] [内存消耗：2,451.12kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:10:58+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html
+[ log ] localhost/xiangmu/public/index/index/enjoy.html [运行时间：0.534031s][吞吐率：1.87req/s] [内存消耗：2,584.65kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:10:58+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html
+[ log ] localhost/xiangmu/public/index/index/enjoy.html [运行时间：0.368021s][吞吐率：2.72req/s] [内存消耗：2,419.73kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:11:04+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?id=1
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?id=1 [运行时间：0.339019s][吞吐率：2.95req/s] [内存消耗：2,419.91kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:11:08+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?id=2
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?id=2 [运行时间：0.309017s][吞吐率：3.24req/s] [内存消耗：2,419.90kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?id=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:12:16+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?id=1
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?id=1 [运行时间：0.344020s][吞吐率：2.91req/s] [内存消耗：2,584.78kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?id=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:12:19+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E5%85%B8%E9%9B%85
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E5%85%B8%E9%9B%85 [运行时间：0.321018s][吞吐率：3.12req/s] [内存消耗：2,420.02kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?id=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '典雅',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:12:22+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91 [运行时间：0.323617s][吞吐率：3.09req/s] [内存消耗：2,419.98kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E5%85%B8%E9%9B%85',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '仙剑',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:12:25+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E7%88%B7%E4%BB%AC
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E7%88%B7%E4%BB%AC [运行时间：0.326018s][吞吐率：3.07req/s] [内存消耗：2,419.98kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '爷们',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:12:59+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91 [运行时间：0.317018s][吞吐率：3.15req/s] [内存消耗：2,419.75kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E7%88%B7%E4%BB%AC',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '仙剑',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:13:04+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E5%85%B8%E9%9B%85
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E5%85%B8%E9%9B%85 [运行时间：0.372021s][吞吐率：2.69req/s] [内存消耗：2,418.09kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '典雅',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:13:09+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E7%88%B7%E4%BB%AC
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E7%88%B7%E4%BB%AC [运行时间：0.326019s][吞吐率：3.07req/s] [内存消耗：2,416.32kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E5%85%B8%E9%9B%85',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '爷们',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:13:15+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E5%A5%BD%E6%B1%89
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E5%A5%BD%E6%B1%89 [运行时间：0.322618s][吞吐率：3.10req/s] [内存消耗：2,416.32kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E7%88%B7%E4%BB%AC',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '好汉',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:13:19+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E5%82%BB%E7%8F%8D
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E5%82%BB%E7%8F%8D [运行时间：0.314018s][吞吐率：3.18req/s] [内存消耗：2,416.32kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E5%A5%BD%E6%B1%89',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '傻珍',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:13:25+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91
+[ log ] localhost/xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91 [运行时间：0.313018s][吞吐率：3.19req/s] [内存消耗：2,419.75kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'enjoy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E5%82%BB%E7%8F%8D',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+  'category' => '仙剑',
+)
+[ info ] [ RUN ] app\index\controller\Index->enjoy[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\enjoy.html [ array (
+  0 => 'lunbo',
+  1 => 'series',
+  2 => 'link',
+  3 => 'xilie1',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-12T13:17:18+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ log ] localhost/xiangmu/public/index/index/index.html [运行时间：0.581033s][吞吐率：1.72req/s] [内存消耗：2,451.28kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/index/index/enjoy.html?category=%E4%BB%99%E5%89%91',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,ja;q=0.8',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=haol9jdd7epr15905ib3qfvn13',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+  0 => 'lunbo',
+  1 => 'tuijian1',
+  2 => 'tuijian2',
+  3 => 'tuijian3',
+  4 => 'tuijian4',
+  5 => 'xilie',
+  6 => 'pinzhi1',
+  7 => 'pinzhi2',
+  8 => 'pinzhi3',
+  9 => 'news',
+  10 => 'link',
+  11 => 'simxilie',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

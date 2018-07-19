@@ -1,0 +1,132 @@
+[ 2017-10-21T21:17:22+08:00 ] ::1 ::1 GET /xiangmu/public/
+[ log ] localhost/xiangmu/public/ [运行时间：0.307018s][吞吐率：3.26req/s] [内存消耗：1,574.06kb] [文件加载：42]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-21T21:24:46+08:00 ] ::1 ::1 GET /xiangmu/public/
+[ log ] localhost/xiangmu/public/ [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：1,574.22kb] [文件加载：42]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\wamp\www\xiangmu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-21T21:24:53+08:00 ] ::1 ::1 GET /xiangmu/public/admin
+[ log ] localhost/xiangmu/public/admin [运行时间：0.183010s][吞吐率：5.46req/s] [内存消耗：1,685.85kb] [文件加载：47]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-21T21:24:53+08:00 ] ::1 ::1 GET /xiangmu/public/admin/login/index.html
+[ log ] localhost/xiangmu/public/admin/login/index.html [运行时间：0.185011s][吞吐率：5.41req/s] [内存消耗：1,816.81kb] [文件加载：47]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ltm9032mf1dmbkv125h4hj79q5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\wamp\www\xiangmu\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

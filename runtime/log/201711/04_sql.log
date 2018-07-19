@@ -1,0 +1,37 @@
+[ 2017-11-04T20:16:31+08:00 ] ::1 ::1 POST /xiangmu/public/admin/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.066004s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_admin` [ RunTime:0.240013s ]
+[ sql ] [ SQL ] SELECT * FROM `men_admin` WHERE  `username` = 'xinchumenye' LIMIT 1 [ RunTime:0.040002s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T20:16:46+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.134007s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T20:17:08+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.071004s ]
+[ sql ] [ SQL ] INSERT INTO `men_ads` (`pic_path` , `filename` , `savename`) VALUES ('G:\\wamp\\www\\xiangmu\\public\\lunbo\\20171104\\7932d5ee54b7c294098079181e432d6c.png' , '文当即' , '20171104\\7932d5ee54b7c294098079181e432d6c.png') [ RunTime:0.168009s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T20:17:13+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.063004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T20:17:17+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/del.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.075004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.025002s ]
+[ sql ] [ SQL ] DELETE FROM `men_ads`    WHERE  `id` = 1 [ RunTime:0.081005s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T20:17:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------

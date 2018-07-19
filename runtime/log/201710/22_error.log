@@ -1,0 +1,4 @@
+[ 2017-10-22T18:03:57+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------

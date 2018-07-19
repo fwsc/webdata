@@ -1,0 +1,44 @@
+[ 2017-10-31T15:19:04+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ error ] [8]未定义数组索引: title[G:\wamp\www\xiangmu\runtime\temp\e56fb6eb371ba39151cb180a9ec312f6.php:59]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:37:03+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ error ] [8]未定义数组索引: title[G:\wamp\www\xiangmu\runtime\temp\e56fb6eb371ba39151cb180a9ec312f6.php:59]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:38:47+08:00 ] ::1 ::1 POST /xiangmu/public/admin/news/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\News.php:41]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:39:28+08:00 ] ::1 ::1 POST /xiangmu/public/admin/news/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\News.php:63]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:45:15+08:00 ] ::1 ::1 POST /xiangmu/public/admin/news/upload.html
+[ error ] [4096]Object of class think\File could not be converted to boolean[G:\wamp\www\xiangmu\application\admin\controller\News.php:62]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:46:04+08:00 ] ::1 ::1 POST /xiangmu/public/admin/news/upload.html
+[ error ] [4096]Object of class think\File could not be converted to boolean[G:\wamp\www\xiangmu\application\admin\controller\News.php:63]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:49:42+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ error ] [8]未定义数组索引: title[G:\wamp\www\xiangmu\runtime\temp\e56fb6eb371ba39151cb180a9ec312f6.php:59]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:50:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ error ] [8]未定义变量: resluts[G:\wamp\www\xiangmu\application\admin\controller\News.php:17]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:50:51+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ error ] [8]未定义变量: resluts[G:\wamp\www\xiangmu\application\admin\controller\News.php:17]
+
+---------------------------------------------------------------
+[ 2017-10-31T15:58:49+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ error ] [4]语法错误: unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)[G:\wamp\www\xiangmu\runtime\temp\e56fb6eb371ba39151cb180a9ec312f6.php:64]
+
+---------------------------------------------------------------
+[ 2017-10-31T20:06:14+08:00 ] ::1 ::1 POST /xiangmu/public/admin/news/upload.html
+[ error ] [8]未定义数组索引: description[G:\wamp\www\xiangmu\application\admin\controller\News.php:84]
+
+---------------------------------------------------------------

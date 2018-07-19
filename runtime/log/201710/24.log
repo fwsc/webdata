@@ -1,0 +1,3202 @@
+[ 2017-10-24T18:40:08+08:00 ] ::1 ::1 GET /xiangmu/public/admin
+[ log ] localhost/xiangmu/public/admin [运行时间：0.362021s][吞吐率：2.76req/s] [内存消耗：1,685.84kb] [文件加载：47]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:40:08+08:00 ] ::1 ::1 GET /xiangmu/public/admin/login/index.html
+[ log ] localhost/xiangmu/public/admin/login/index.html [运行时间：0.269016s][吞吐率：3.72req/s] [内存消耗：1,817.66kb] [文件加载：47]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\wamp\www\xiangmu\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:41:16+08:00 ] ::1 ::1 POST /xiangmu/public/admin/login/index.html
+[ log ] localhost/xiangmu/public/admin/login/index.html [运行时间：0.405023s][吞吐率：2.47req/s] [内存消耗：2,633.30kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'xinchumenye',
+  'password' => 'xinchumenye123',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ G:\wamp\www\xiangmu\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:41:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/index.html
+[ log ] localhost/xiangmu/public/admin/index/index.html [运行时间：0.146009s][吞吐率：6.85req/s] [内存消耗：1,908.55kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:41:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/welcome.html
+[ log ] localhost/xiangmu/public/admin/index/welcome.html [运行时间：0.147008s][吞吐率：6.80req/s] [内存消耗：1,838.39kb] [文件加载：46]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:42:19+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.297017s][吞吐率：3.37req/s] [内存消耗：2,598.24kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:42:21+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：1,940.38kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:42:27+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ log ] localhost/xiangmu/public/admin/category/add.html [运行时间：0.215012s][吞吐率：4.65req/s] [内存消耗：1,959.70kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ G:\wamp\www\xiangmu\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:42:29+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ log ] localhost/xiangmu/public/admin/category/index.html [运行时间：0.288016s][吞吐率：3.47req/s] [内存消耗：2,746.00kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ G:\wamp\www\xiangmu\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:42:30+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：1,940.38kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:56:15+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ log ] localhost/xiangmu/public/admin/category/add.html [运行时间：0.171010s][吞吐率：5.85req/s] [内存消耗：1,959.70kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ G:\wamp\www\xiangmu\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T18:56:16+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ log ] localhost/xiangmu/public/admin/category/index.html [运行时间：0.265015s][吞吐率：3.77req/s] [内存消耗：2,746.00kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ G:\wamp\www\xiangmu\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:04:32+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：1,940.38kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:04:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.227013s][吞吐率：4.41req/s] [内存消耗：2,598.24kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:04:34+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.151009s][吞吐率：6.62req/s] [内存消耗：1,940.38kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:04:34+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.231013s][吞吐率：4.33req/s] [内存消耗：2,598.24kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:04:35+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：1,940.38kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:05:35+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.209012s][吞吐率：4.78req/s] [内存消耗：2,004.04kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10198',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCX3vjwsOS561A93x',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'rse',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:06:20+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.209012s][吞吐率：4.78req/s] [内存消耗：2,004.04kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10198',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGEF9HNhpk2RZV7vI',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'rse',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:49:17+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,940.38kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:49:19+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.228013s][吞吐率：4.39req/s] [内存消耗：2,598.24kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:49:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：1,940.38kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:49:59+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.225013s][吞吐率：4.44req/s] [内存消耗：2,004.00kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '28253',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6BH3cAdrlQpSwElh',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'dwfwe',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:53:36+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,938.62kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:53:46+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：1,942.74kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '12885',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1I2bNw7G5Jy0kuT1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'dvdfva',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:58:17+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.148009s][吞吐率：6.76req/s] [内存消耗：1,938.62kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T19:58:24+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.131008s][吞吐率：7.63req/s] [内存消耗：1,942.69kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '16980',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7CTXtzUlnUaqAdQT',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'rearg',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:00:16+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.164009s][吞吐率：6.10req/s] [内存消耗：1,938.62kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:00:23+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：1,942.69kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '12882',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydfSNINtDh34TA8vs',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'ilh',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:00:36+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.173010s][吞吐率：5.78req/s] [内存消耗：2,100.30kb] [文件加载：51]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:00:42+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.185011s][吞吐率：5.41req/s] [内存消耗：1,942.74kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '16978',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary70CjnmQFDMrhY49U',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'jkb',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:03:16+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：1,939.35kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:03:22+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.147008s][吞吐率：6.80req/s] [内存消耗：1,943.55kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '28254',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGgPo9HMKRn6OYtYj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'dvarwg',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:05:29+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.143008s][吞吐率：6.99req/s] [内存消耗：1,939.35kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:07:14+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：1,945.77kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '12886',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5HAEmDqxYmO7kLhf',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'wrgaerg',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:10:51+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.146008s][吞吐率：6.85req/s] [内存消耗：1,941.42kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:10:57+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：1,946.16kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '28253',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygI7JA7La860WuhEc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'fgtsh',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:11:49+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.180010s][吞吐率：5.56req/s] [内存消耗：1,941.31kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:11:57+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：1,946.03kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '49304',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2FmkWbDI8nhTQKKo',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'rsert',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:12:18+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.145009s][吞吐率：6.90req/s] [内存消耗：1,941.58kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:13:03+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.177010s][吞吐率：5.65req/s] [内存消耗：1,946.38kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '20690',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5tCpjsSmhnvNPskB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'gfxnghx',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:29:59+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：1,944.13kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:30:10+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.337020s][吞吐率：2.97req/s] [内存消耗：2,673.95kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '87773',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryc300t6AqXneIfnYU',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'fewgafw',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:30:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.285016s][吞吐率：3.51req/s] [内存消耗：2,658.14kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:37:58+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.279016s][吞吐率：3.58req/s] [内存消耗：2,658.14kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:37:59+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.134008s][吞吐率：7.46req/s] [内存消耗：1,944.13kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:38:00+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.270016s][吞吐率：3.70req/s] [内存消耗：2,658.14kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:38:01+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.139008s][吞吐率：7.19req/s] [内存消耗：1,944.13kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:38:02+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.323018s][吞吐率：3.10req/s] [内存消耗：2,658.14kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:42:08+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.265015s][吞吐率：3.77req/s] [内存消耗：2,658.14kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:42:09+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.282016s][吞吐率：3.55req/s] [内存消耗：2,658.14kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:42:56+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.364021s][吞吐率：2.75req/s] [内存消耗：2,819.95kb] [文件加载：61]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:43:51+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.298017s][吞吐率：3.36req/s] [内存消耗：2,819.98kb] [文件加载：61]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T20:44:16+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.280016s][吞吐率：3.57req/s] [内存消耗：2,764.50kb] [文件加载：57]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:00:31+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：1,944.13kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:00:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.349020s][吞吐率：2.87req/s] [内存消耗：2,603.46kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:01:51+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.234013s][吞吐率：4.27req/s] [内存消耗：2,604.91kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:04:07+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.295017s][吞吐率：3.39req/s] [内存消耗：2,834.84kb] [文件加载：58]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:04:07+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：2,673.60kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:04:08+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.278016s][吞吐率：3.60req/s] [内存消耗：2,673.60kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:04:09+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/index.html
+[ log ] localhost/xiangmu/public/admin/index/index.html [运行时间：0.232014s][吞吐率：4.31req/s] [内存消耗：1,908.73kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:04:10+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/welcome.html
+[ log ] localhost/xiangmu/public/admin/index/welcome.html [运行时间：0.267015s][吞吐率：3.75req/s] [内存消耗：1,838.39kb] [文件加载：46]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:04:11+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.257014s][吞吐率：3.89req/s] [内存消耗：2,673.60kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:07:59+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.229013s][吞吐率：4.37req/s] [内存消耗：2,673.91kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:08:01+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/index.html
+[ log ] localhost/xiangmu/public/admin/index/index.html [运行时间：0.177010s][吞吐率：5.65req/s] [内存消耗：1,908.73kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:08:02+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/welcome.html
+[ log ] localhost/xiangmu/public/admin/index/welcome.html [运行时间：0.192011s][吞吐率：5.21req/s] [内存消耗：1,838.39kb] [文件加载：46]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:08:03+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.255015s][吞吐率：3.92req/s] [内存消耗：2,673.91kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:11:52+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/index.html
+[ log ] localhost/xiangmu/public/admin/index/index.html [运行时间：0.162009s][吞吐率：6.17req/s] [内存消耗：1,908.73kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:11:52+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/welcome.html
+[ log ] localhost/xiangmu/public/admin/index/welcome.html [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：1,838.39kb] [文件加载：46]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:12:21+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.304017s][吞吐率：3.29req/s] [内存消耗：1,338.60kb] [文件加载：40]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:12:37+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.231013s][吞吐率：4.33req/s] [内存消耗：1,339.13kb] [文件加载：40]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:12:48+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.240013s][吞吐率：4.17req/s] [内存消耗：1,339.13kb] [文件加载：40]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:12:59+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.331019s][吞吐率：3.02req/s] [内存消耗：2,835.99kb] [文件加载：58]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:16:50+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ log ] localhost/xiangmu/public/admin/category/add.html [运行时间：0.218013s][吞吐率：4.59req/s] [内存消耗：1,959.70kb] [文件加载：52]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->add[ G:\wamp\www\xiangmu\application\admin\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:16:51+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ log ] localhost/xiangmu/public/admin/category/index.html [运行时间：0.434024s][吞吐率：2.30req/s] [内存消耗：2,746.00kb] [文件加载：59]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ G:\wamp\www\xiangmu\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:16:53+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：1,946.30kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:16:54+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.237013s][吞吐率：4.22req/s] [内存消耗：2,674.35kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:19:46+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/index.html
+[ log ] localhost/xiangmu/public/admin/index/index.html [运行时间：0.169010s][吞吐率：5.92req/s] [内存消耗：1,908.73kb] [文件加载：48]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:19:46+08:00 ] ::1 ::1 GET /xiangmu/public/admin/index/welcome.html
+[ log ] localhost/xiangmu/public/admin/index/welcome.html [运行时间：0.215012s][吞吐率：4.65req/s] [内存消耗：1,838.39kb] [文件加载：46]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ G:\wamp\www\xiangmu\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:19:48+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.333019s][吞吐率：3.00req/s] [内存消耗：2,835.99kb] [文件加载：58]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:19:49+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.246014s][吞吐率：4.06req/s] [内存消耗：2,674.20kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:20:30+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.231013s][吞吐率：4.33req/s] [内存消耗：2,835.79kb] [文件加载：58]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:23:18+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.283016s][吞吐率：3.53req/s] [内存消耗：2,835.77kb] [文件加载：58]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:23:19+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/o2o_del('/xiangmu/public/admin/deal/del.html?id=1%27)
+[ log ] localhost/xiangmu/public/admin/deal/o2o_del('/xiangmu/public/admin/deal/del.html?id=1%27) [运行时间：0.258015s][吞吐率：3.88req/s] [内存消耗：1,923.63kb] [文件加载：50]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'o2o_del(\'',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1\')',
+  'xiangmu' => 'public',
+  'admin' => 'deal',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:23:36+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.272015s][吞吐率：3.68req/s] [内存消耗：2,835.90kb] [文件加载：58]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:23:38+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/del.html?id=1
+[ log ] localhost/xiangmu/public/admin/deal/del.html?id=1 [运行时间：0.347019s][吞吐率：2.88req/s] [内存消耗：2,608.63kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->del[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:23:41+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.219012s][吞吐率：4.57req/s] [内存消耗：2,604.74kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/del.html?id=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:24:52+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：1,946.30kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:25:01+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.338019s][吞吐率：2.96req/s] [内存消耗：2,676.08kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10202',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryU89BIiULxExjGb8c',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'eshsr',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:33:02+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.153009s][吞吐率：6.54req/s] [内存消耗：1,947.60kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:33:03+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.270016s][吞吐率：3.70req/s] [内存消耗：2,675.63kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:33:04+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/apply.html
+[ log ] localhost/xiangmu/public/admin/deal/apply.html [运行时间：0.166009s][吞吐率：6.02req/s] [内存消耗：1,947.60kb] [文件加载：49]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->apply[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\apply.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:33:32+08:00 ] ::1 ::1 POST /xiangmu/public/admin/deal/upload.html
+[ log ] localhost/xiangmu/public/admin/deal/upload.html [运行时间：0.333019s][吞吐率：3.00req/s] [内存消耗：2,677.33kb] [文件加载：55]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10502',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybZYpCLJY1KuBnBhc',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/apply.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'filename' => 'htrhrt',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->upload[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:33:34+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：2,676.34kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:33:40+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.246014s][吞吐率：4.06req/s] [内存消耗：2,676.34kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:33:45+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/del.html?id=2
+[ log ] localhost/xiangmu/public/admin/deal/del.html?id=2 [运行时间：0.326019s][吞吐率：3.07req/s] [内存消耗：2,658.43kb] [文件加载：58]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/deal/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Deal->del[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-10-24T21:34:38+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ log ] localhost/xiangmu/public/admin/deal/index.html [运行时间：0.239013s][吞吐率：4.18req/s] [内存消耗：2,675.63kb] [文件加载：56]
+[ info ] [ LANG ] G:\wamp\www\xiangmu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/xiangmu/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,ja;q=0.6',
+  'cookie' => 'pgv_pvi=4656165888; Phpstorm-d94e29df=073d5d47-d625-471e-98d5-737a35e21801; Huiskin=default; PHPSESSID=ng08l8bd6gqdh801h3qvkd4bf5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Deal->index[ G:\wamp\www\xiangmu\application\admin\controller\Deal.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\wamp\www\xiangmu\public/../application/admin\view\deal\index.html [ array (
+  0 => 'lunbo',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

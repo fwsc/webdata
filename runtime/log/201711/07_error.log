@@ -1,0 +1,44 @@
+[ 2017-11-07T20:45:55+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]Array to string conversion[G:\wamp\www\xiangmu\application\index\controller\Index.php:130]
+
+---------------------------------------------------------------
+[ 2017-11-07T20:46:19+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]Array to string conversion[G:\wamp\www\xiangmu\application\index\controller\Index.php:130]
+
+---------------------------------------------------------------
+[ 2017-11-07T20:56:45+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [2]Illegal string offset 'xilie'[G:\wamp\www\xiangmu\application\index\controller\Index.php:131]
+
+---------------------------------------------------------------
+[ 2017-11-07T21:23:40+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ error ] [8]Use of undefined constant __STATIC__ - assumed '__STATIC__'[G:\wamp\www\xiangmu\application\index\controller\Index.php:17]
+
+---------------------------------------------------------------
+[ 2017-11-07T22:50:07+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ error ] [2]Wrong parameter count for var_dump()[G:\wamp\www\xiangmu\application\index\controller\Index.php:17]
+
+---------------------------------------------------------------
+[ 2017-11-07T23:34:57+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [2]urlencode() expects parameter 1 to be string, array given[G:\wamp\www\xiangmu\application\index\controller\Index.php:132]
+
+---------------------------------------------------------------
+[ 2017-11-07T23:37:55+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [2]urlencode() expects parameter 1 to be string, array given[G:\wamp\www\xiangmu\application\index\controller\Index.php:132]
+
+---------------------------------------------------------------
+[ 2017-11-07T23:38:27+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [2]urlencode() expects parameter 1 to be string, array given[G:\wamp\www\xiangmu\application\index\controller\Index.php:132]
+
+---------------------------------------------------------------
+[ 2017-11-07T23:45:02+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]未定义变量: xin[G:\wamp\www\xiangmu\application\index\controller\Index.php:136]
+
+---------------------------------------------------------------
+[ 2017-11-07T23:45:14+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]未定义变量: xin[G:\wamp\www\xiangmu\application\index\controller\Index.php:136]
+
+---------------------------------------------------------------
+[ 2017-11-07T23:49:57+08:00 ] ::1 ::1 POST /xiangmu/public/index/index/xl.html
+[ error ] [8]未定义变量: xin[G:\wamp\www\xiangmu\application\index\controller\Index.php:136]
+
+---------------------------------------------------------------

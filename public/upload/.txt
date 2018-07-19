@@ -1,0 +1,20 @@
+Autodesk Maya 2015 注册信息
+
+单击浏览器中的“打印”按钮以打印此页。 此注册信息文件保存在  C:\ProgramData\Autodesk\Adlm\MAYA2015zh_CNRegInfo.html
+软件信息
+产品:	Autodesk Maya 2015	 	 
+序列号:	066-66666666
+产品密钥:	657G1	 	 
+申请号:	T2ER 47UW TNNT F0P7
+ 	5K2G UYD4 12FZ X2PZ
+公司信息
+名称:	
+街道地址 1:	
+城市:	
+邮政编码:		国家或地区:	
+联系信息
+名称:	 
+电话:			
+Autodesk 信息
+Internet:	http://www.autodesk.com	Internet 注册:	https://register.autodesk.com
+2016-04-14T22:48+08:00               版本 9.0.23.0

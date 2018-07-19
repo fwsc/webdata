@@ -1,0 +1,28 @@
+[ 2017-11-13T20:04:45+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ error ] [1]Call to a member function xl() on a non-object[G:\wamp\www\xiangmu\application\index\controller\Index.php:58]
+
+---------------------------------------------------------------
+[ 2017-11-13T21:01:46+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/test.html
+[ error ] [8]Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__'[G:\wamp\www\xiangmu\application\index\controller\Index.php:170]
+
+---------------------------------------------------------------
+[ 2017-11-13T21:08:25+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/test.html
+[ error ] [8]Use of undefined constant __STATIC__ - assumed '__STATIC__'[G:\wamp\www\xiangmu\application\index\controller\Index.php:170]
+
+---------------------------------------------------------------
+[ 2017-11-13T21:11:33+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/test.html
+[ error ] [8]Use of undefined constant STATIC_PATH - assumed 'STATIC_PATH'[G:\wamp\www\xiangmu\application\index\controller\Index.php:170]
+
+---------------------------------------------------------------
+[ 2017-11-13T21:11:42+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/test.html
+[ error ] [8]Use of undefined constant STATIC_PATH - assumed 'STATIC_PATH'[G:\wamp\www\xiangmu\application\index\controller\Index.php:170]
+
+---------------------------------------------------------------
+[ 2017-11-13T21:11:58+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/test.html
+[ error ] [8]Use of undefined constant __STATIC__ - assumed '__STATIC__'[G:\wamp\www\xiangmu\application\index\controller\Index.php:170]
+
+---------------------------------------------------------------
+[ 2017-11-13T21:23:34+08:00 ] ::1 ::1 GET /xiangmu/public/admin/login/index.html
+[ error ] [8]Trying to get property of non-object[G:\wamp\www\xiangmu\application\admin\controller\Login.php:38]
+
+---------------------------------------------------------------

@@ -1,0 +1,8 @@
+[ 2017-12-30T22:31:47+08:00 ] 172.17.195.153 111.8.130.166 POST /admin/category/upload.html
+[ error ] [2]mkdir(): Permission denied[/webdata/thinkphp/library/think/File.php:120]
+
+---------------------------------------------------------------
+[ 2017-12-30T23:28:07+08:00 ] 172.17.195.153 223.150.150.221 POST /admin/category/upload.html
+[ error ] [2]mkdir(): Permission denied[/webdata/thinkphp/library/think/File.php:120]
+
+---------------------------------------------------------------

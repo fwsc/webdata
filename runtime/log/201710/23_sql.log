@@ -1,0 +1,72 @@
+[ 2017-10-23T19:46:40+08:00 ] ::1 ::1 POST /xiangmu/public/admin/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_admin` [ RunTime:0.079005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_admin` WHERE  `username` = 'xinchumenye' LIMIT 1 [ RunTime:0.022001s ]
+
+---------------------------------------------------------------
+[ 2017-10-23T19:46:50+08:00 ] ::1 ::1 POST /xiangmu/public/admin/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_admin` [ RunTime:0.030001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_admin` WHERE  `username` = 'xinchumenye' LIMIT 1 [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2017-10-23T20:32:12+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-10-23T20:33:34+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-10-23T20:34:24+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-10-23T20:35:44+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-10-23T20:44:49+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-10-23T20:52:14+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-10-23T20:52:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030002s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` ORDER BY id desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-23T20:52:54+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` ORDER BY id desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-10-23T20:52:55+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` ORDER BY id desc [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-10-23T21:22:37+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-10-23T21:23:59+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+
+---------------------------------------------------------------
+[ 2017-10-23T21:25:25+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.027001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002001s ]
+
+---------------------------------------------------------------

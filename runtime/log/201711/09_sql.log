@@ -1,0 +1,291 @@
+[ 2017-11-09T13:55:11+08:00 ] ::1 ::1 POST /xiangmu/public/admin/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121007s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_admin` [ RunTime:0.318018s ]
+[ sql ] [ SQL ] SELECT * FROM `men_admin` WHERE  `username` = 'xinchumenye' LIMIT 1 [ RunTime:0.032001s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:17+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.061004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:19+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.095005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:22+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` ORDER BY `id`  desc [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:25+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.073004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:27+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/series.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:28+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.069004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` ORDER BY id desc [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:29+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.173010s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY `id`  desc [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T13:55:34+08:00 ] ::1 ::1 GET /xiangmu/public/admin/link/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.113007s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T14:24:51+08:00 ] ::1 ::1 GET /xiangmu/public/admin/deal/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T14:24:56+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T14:24:56+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/series.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T14:24:56+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` ORDER BY id desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:08+08:00 ] ::1 ::1 GET /xiangmu/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073004s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.077005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.088005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.114007s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '仙剑' ORDER BY id desc LIMIT 4 [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.085005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 2 LIMIT 1 [ RunTime:0.072004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 0 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:11+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '仙剑' [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:14+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037002s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.098005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:16+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '仙剑' ORDER BY id desc LIMIT 4 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.067004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 2 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 1 LIMIT 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 0 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.077005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:17+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057003s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.078005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.084005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.096006s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '仙剑' ORDER BY id desc LIMIT 4 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 2 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:31+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032002s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.086005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.069004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:42+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.081004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 4,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:48+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.074005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.077005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8,4 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:50+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046002s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.064003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.064003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.092005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 12,4 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:16:57+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.068003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8,4 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:17:00+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.065004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.069004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.073004s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 4,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:17:02+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/news.html?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.059003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.079004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.062003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T18:17:06+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '仙剑' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T20:42:41+08:00 ] ::1 ::1 GET /xiangmu/public/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037002s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.058003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.056004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '仙剑' ORDER BY id desc LIMIT 4 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 2 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `weiyi` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.059003s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T20:42:45+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038002s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.097005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.079004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.079004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '仙剑' [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.081004s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-11-09T22:57:40+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064004s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` ORDER BY id desc [ RunTime:0.004000s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,76 @@
+[ 2017-11-06T19:12:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [0]类不存在:app\common\model\Quality[G:\wamp\www\xiangmu\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:12:34+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/apply.html
+[ error ] [0]类不存在:app\common\model\Quality[G:\wamp\www\xiangmu\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:12:35+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [0]类不存在:app\common\model\Quality[G:\wamp\www\xiangmu\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:12:47+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [0]类不存在:app\common\model\Quality[G:\wamp\www\xiangmu\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:12:48+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/apply.html
+[ error ] [0]类不存在:app\common\model\Quality[G:\wamp\www\xiangmu\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:12:49+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [0]类不存在:app\common\model\Quality[G:\wamp\www\xiangmu\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:12:50+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/apply.html
+[ error ] [0]类不存在:app\common\model\Quality[G:\wamp\www\xiangmu\thinkphp\library\think\Loader.php:385]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:13:05+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_content' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:13:06+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/apply.html
+[ error ] [0]模板文件不存在:G:\wamp\www\xiangmu\public/../application/admin\view\quality\apply.html[G:\wamp\www\xiangmu\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:13:08+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_content' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:13:54+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_content' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:13:54+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/apply.html
+[ error ] [0]模板文件不存在:G:\wamp\www\xiangmu\public/../application/admin\view\quality\apply.html[G:\wamp\www\xiangmu\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:13:55+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_content' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:14:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [0]模板文件不存在:G:\wamp\www\xiangmu\public/../application/admin\view\quality\index.html[G:\wamp\www\xiangmu\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:16:19+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/index.html
+[ error ] [0]模板文件不存在:G:\wamp\www\xiangmu\public/../application/admin\view\quality\index.html[G:\wamp\www\xiangmu\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:16:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/quality/apply.html
+[ error ] [0]模板文件不存在:G:\wamp\www\xiangmu\public/../application/admin\view\quality\apply.html[G:\wamp\www\xiangmu\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:20:46+08:00 ] ::1 ::1 POST /xiangmu/public/admin/quality/upload.html
+[ error ] [0]数据表字段不存在:[content][G:\wamp\www\xiangmu\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2017-11-06T19:53:35+08:00 ] ::1 ::1 GET /xiangmu/public/index.php/index/index/index.html
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Champ 'weiyi' inconnu dans where clause[G:\wamp\www\xiangmu\thinkphp\library\think\db\Connection.php:362]
+
+---------------------------------------------------------------
+[ 2017-11-06T20:11:26+08:00 ] ::1 ::1 GET /xiangmu/public/index.php/index/index/index.html
+[ error ] [4]syntax error, unexpected ':'[G:\wamp\www\xiangmu\application\index\controller\Index.php:35]
+
+---------------------------------------------------------------

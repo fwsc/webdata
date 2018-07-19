@@ -1,0 +1,1609 @@
+[ 2017-12-05T00:00:06+08:00 ] 172.17.195.153 223.104.130.56 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000263s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.002131s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T00:33:04+08:00 ] 172.17.195.153 59.110.6.177 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000110s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T03:41:56+08:00 ] 172.17.195.153 123.59.146.153 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000208s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000109s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T07:57:51+08:00 ] 172.17.195.153 106.11.242.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T08:33:31+08:00 ] 172.17.195.153 47.92.2.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000113s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:43:21+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000129s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:43:25+08:00 ] 172.17.195.153 140.205.225.193 GET /index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000142s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:43:37+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000233s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000110s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:43:44+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000249s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000124s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:43:45+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000220s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000113s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:43:59+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000112s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:44:16+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000217s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:44:19+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T09:44:20+08:00 ] 172.17.195.153 140.205.225.193 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000210s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:25:17+08:00 ] 172.17.195.153 14.116.133.169 GET /?nsukey=8n2asjt3k2OUGtknFbjrgpJ4tFbaOYqNKIxV0%2FTT7hcd27%2Fe5USdVNoS6zwWo5QDWvexPlusL04avYkbI3iA%2FSBXgSrrJSzP7g4mzguyt23MvvBPp%2BnEot1GJF4YNXHyc1PtmfA4QiOZN%2BWaRhBURa008jE7%2B04AiCPOPrnm09IkyvYtKnX9Z0OnMsWC0bJWJYf2iWoWxAX2Plh1l5gdvg%3D%3D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000110s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:25:17+08:00 ] 172.17.195.153 113.96.218.51 GET /?nsukey=8n2asjt3k2OUGtknFbjrgpJ4tFbaOYqNKIxV0%2FTT7hcd27%2Fe5USdVNoS6zwWo5QDWvexPlusL04avYkbI3iA%2FSBXgSrrJSzP7g4mzguyt23MvvBPp%2BnEot1GJF4YNXHyc1PtmfA4QiOZN%2BWaRhBURa008jE7%2B04AiCPOPrnm09IkyvYtKnX9Z0OnMsWC0bJWJYf2iWoWxAX2Plh1l5gdvg%3D%3D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000260s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000124s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:25:25+08:00 ] 172.17.195.153 117.136.89.137 GET /?nsukey=8n2asjt3k2OUGtknFbjrgpJ4tFbaOYqNKIxV0%2FTT7hcd27%2Fe5USdVNoS6zwWo5QDWvexPlusL04avYkbI3iA%2FSBXgSrrJSzP7g4mzguyt23MvvBPp%2BnEot1GJF4YNXHyc1PtmfA4QiOZN%2BWaRhBURa008jE7%2B04AiCPOPrnm09IkyvYtKnX9Z0OnMsWC0bJWJYf2iWoWxAX2Plh1l5gdvg%3D%3D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000133s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:25:26+08:00 ] 172.17.195.153 120.204.17.73 GET /?nsukey=8n2asjt3k2OUGtknFbjrgpJ4tFbaOYqNKIxV0%2FTT7hcd27%2Fe5USdVNoS6zwWo5QDWvexPlusL04avYkbI3iA%2FSBXgSrrJSzP7g4mzguyt23MvvBPp%2BnEot1GJF4YNXHyc1PtmfA4QiOZN%2BWaRhBURa008jE7%2B04AiCPOPrnm09IkyvYtKnX9Z0OnMsWC0bJWJYf2iWoWxAX2Plh1l5gdvg%3D%3D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:28:02+08:00 ] 172.17.195.153 101.226.33.220 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:28:21+08:00 ] 172.17.195.153 183.3.239.156 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000113s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:28:22+08:00 ] 172.17.195.153 117.136.89.197 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000110s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:29:44+08:00 ] 172.17.195.153 117.136.89.197 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000126s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:01+08:00 ] 172.17.195.153 117.136.89.197 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000234s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:06+08:00 ] 172.17.195.153 117.136.89.197 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.001986s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:09+08:00 ] 172.17.195.153 117.136.89.197 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:11+08:00 ] 172.17.195.153 121.51.32.144 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000211s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:12+08:00 ] 172.17.195.153 121.51.32.144 GET /index/index/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000113s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:12+08:00 ] 172.17.195.153 117.136.89.197 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000126s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:12+08:00 ] 172.17.195.153 183.57.53.196 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000209s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000117s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:15+08:00 ] 172.17.195.153 117.136.89.197 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000133s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:18+08:00 ] 172.17.195.153 14.17.21.58 GET /index/index/enjoy.html?category=%E8%B1%A1%E7%89%99%E7%99%BD%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '象牙白系列' [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000118s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:19+08:00 ] 172.17.195.153 120.204.17.69 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000205s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:20+08:00 ] 172.17.195.153 120.204.17.69 GET /index/index/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000256s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000121s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T12:30:27+08:00 ] 172.17.195.153 58.247.212.98 GET /index/index/enjoy.html?category=%E8%B1%A1%E7%89%99%E7%99%BD%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '象牙白系列' [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000128s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T13:09:16+08:00 ] 172.17.195.153 43.254.216.124 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000242s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T13:30:59+08:00 ] 172.17.195.153 106.11.226.120 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000241s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000128s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T15:08:02+08:00 ] 172.17.195.153 139.162.114.70 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000287s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000110s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T16:21:51+08:00 ] 172.17.195.153 114.215.45.101 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:11:19+08:00 ] 172.17.195.153 117.136.89.213 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000212s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000113s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:11:20+08:00 ] 172.17.195.153 112.90.82.218 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000212s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000134s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:17+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000212s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.001732s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:22+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000328s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000117s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:23+08:00 ] 172.17.195.153 112.90.82.196 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000217s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:42+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000242s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:46+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000210s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:51+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/news.html?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000283s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000120s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:52+08:00 ] 172.17.195.153 119.147.207.144 GET /index/index/news.html?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000245s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000120s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:12:54+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000166s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:13:01+08:00 ] 172.17.195.153 120.204.17.67 GET /index/index/news.html?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000270s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000122s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:13:03+08:00 ] 172.17.195.153 120.204.17.67 GET /index/index/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000211s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000112s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:13:03+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000212s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:13:05+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000234s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000126s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:13:07+08:00 ] 172.17.195.153 117.136.89.213 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000138s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T17:13:14+08:00 ] 172.17.195.153 101.226.64.174 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000197s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000121s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:17:19+08:00 ] 172.17.195.153 14.17.21.58 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:17:19+08:00 ] 172.17.195.153 117.136.89.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000182s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000117s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:18:39+08:00 ] 172.17.195.153 117.136.89.233 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000264s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000116s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:19:03+08:00 ] 172.17.195.153 117.136.89.233 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000120s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:19:13+08:00 ] 172.17.195.153 120.204.17.71 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000141s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:19:18+08:00 ] 172.17.195.153 117.136.89.233 GET /index/index/contact.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_profile` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_profile` LIMIT 1 [ RunTime:0.000112s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:19:29+08:00 ] 172.17.195.153 183.192.201.97 GET /index/index/contact.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000265s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_profile` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_profile` LIMIT 1 [ RunTime:0.000128s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:20:10+08:00 ] 172.17.195.153 117.136.89.233 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000128s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:20:13+08:00 ] 172.17.195.153 117.136.89.233 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000134s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:20:15+08:00 ] 172.17.195.153 117.136.89.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000127s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:20:15+08:00 ] 172.17.195.153 183.57.53.222 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.001628s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000112s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:20:17+08:00 ] 172.17.195.153 117.136.89.233 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:28:07+08:00 ] 172.17.195.153 113.218.28.114 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000238s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000122s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:28:31+08:00 ] 172.17.195.153 106.120.161.68 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000117s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:29:42+08:00 ] 172.17.195.153 171.13.14.131 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000237s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000130s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:32:41+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:33:08+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000213s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000124s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:33:15+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/contact.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_profile` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_profile` LIMIT 1 [ RunTime:0.000109s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:33:22+08:00 ] 172.17.195.153 106.120.160.109 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000258s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:33:35+08:00 ] 172.17.195.153 101.199.112.50 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:33:41+08:00 ] 172.17.195.153 106.120.160.109 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000220s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000121s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:04+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000216s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000119s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:10+08:00 ] 172.17.195.153 106.120.161.68 GET /index/index/contact.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_profile` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_profile` LIMIT 1 [ RunTime:0.000120s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:20+08:00 ] 172.17.195.153 182.118.20.144 GET /index/index/news.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000241s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `men_news` LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 0,4 [ RunTime:0.000126s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:26+08:00 ] 172.17.195.153 220.181.132.197 GET /index/index/contact.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000210s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_profile` [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `men_profile` LIMIT 1 [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:32+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/enjoy.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000208s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:39+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/enjoy.html?category=仿实木深拉伸系列
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000260s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '仿实木深拉伸系列' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000118s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:46+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/enjoy.html?category=反凹凸系列
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000216s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000120s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:34:51+08:00 ] 172.17.195.153 113.218.28.114 GET /index/index/enjoy.html?category=仿实木深拉伸系列
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '仿实木深拉伸系列' [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000115s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:35:16+08:00 ] 172.17.195.153 106.120.161.68 GET /index/index/enjoy.html?category=%E4%BB%BF%E5%AE%9E%E6%9C%A8%E6%B7%B1%E6%8B%89%E4%BC%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000208s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '仿实木深拉伸系列' [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000119s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:35:31+08:00 ] 172.17.195.153 106.120.161.68 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000119s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:35:35+08:00 ] 172.17.195.153 101.199.108.52 GET /index/index/enjoy.html?category=%E4%BB%BF%E5%AE%9E%E6%9C%A8%E6%B7%B1%E6%8B%89%E4%BC%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '仿实木深拉伸系列' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000139s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T18:35:52+08:00 ] 172.17.195.153 101.199.112.52 GET /index/index/enjoy.html?category=%E5%8F%8D%E5%87%B9%E5%87%B8%E7%B3%BB%E5%88%97
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `category` = '反凹凸系列' [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000160s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T19:40:24+08:00 ] 172.17.195.153 80.82.77.139 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T23:22:50+08:00 ] 172.17.195.153 140.205.225.206 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000268s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000123s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T23:28:08+08:00 ] 172.17.195.153 140.205.225.206 GET /index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000203s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000121s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T23:36:17+08:00 ] 172.17.195.153 140.205.225.206 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000212s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000113s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T23:43:41+08:00 ] 172.17.195.153 140.205.225.206 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000109s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T23:47:01+08:00 ] 172.17.195.153 140.205.225.206 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000220s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000110s ]
+
+---------------------------------------------------------------
+[ 2017-12-05T23:59:31+08:00 ] 172.17.195.153 140.205.225.206 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=xinchu;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_ads` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT * FROM `men_ads` [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_series` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_news` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `men_series` LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_product` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `men_product` WHERE  `recommend` = 1  AND `category` = '反凹凸系列' ORDER BY id desc LIMIT 4 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_quality` [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` ORDER BY id desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `men_quality` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `men_news` ORDER BY id desc LIMIT 8 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `men_link` [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `men_link` [ RunTime:0.000111s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,76 @@
+[ 2017-11-02T18:46:28+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\thinkphp\library\think\template\taglib\Cx.php:84]
+
+---------------------------------------------------------------
+[ 2017-11-02T18:49:01+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\thinkphp\library\think\template\taglib\Cx.php:84]
+
+---------------------------------------------------------------
+[ 2017-11-02T18:49:46+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\thinkphp\library\think\template\taglib\Cx.php:84]
+
+---------------------------------------------------------------
+[ 2017-11-02T18:51:00+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\thinkphp\library\think\template\taglib\Cx.php:84]
+
+---------------------------------------------------------------
+[ 2017-11-02T18:51:24+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\thinkphp\library\think\template\taglib\Cx.php:84]
+
+---------------------------------------------------------------
+[ 2017-11-02T18:55:54+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\thinkphp\library\think\template\taglib\Cx.php:84]
+
+---------------------------------------------------------------
+[ 2017-11-02T18:57:45+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [2]Illegal string offset 'content'[G:\wamp\www\xiangmu\runtime\temp\6709af605871b6a98f2427e270fcf8c6.php:54]
+
+---------------------------------------------------------------
+[ 2017-11-02T18:59:37+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [2]Illegal string offset 'content'[G:\wamp\www\xiangmu\runtime\temp\6709af605871b6a98f2427e270fcf8c6.php:55]
+
+---------------------------------------------------------------
+[ 2017-11-02T19:00:29+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [2]Illegal string offset 'content'[G:\wamp\www\xiangmu\runtime\temp\6709af605871b6a98f2427e270fcf8c6.php:55]
+
+---------------------------------------------------------------
+[ 2017-11-02T19:01:00+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [2]Illegal string offset 'content'[G:\wamp\www\xiangmu\runtime\temp\6709af605871b6a98f2427e270fcf8c6.php:55]
+
+---------------------------------------------------------------
+[ 2017-11-02T19:02:00+08:00 ] ::1 ::1 GET /xiangmu/public/admin/profile/index.html
+[ error ] [2]Invalid argument supplied for foreach()[G:\wamp\www\xiangmu\runtime\temp\6709af605871b6a98f2427e270fcf8c6.php:54]
+
+---------------------------------------------------------------
+[ 2017-11-02T19:50:13+08:00 ] ::1 ::1 GET /xiangmu/public/admin/link/change.html?guding_id=2
+[ error ] [8]Trying to get property of non-object[G:\wamp\www\xiangmu\application\admin\controller\Link.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-02T19:50:30+08:00 ] ::1 ::1 GET /xiangmu/public/admin/link/change.html?guding_id=2
+[ error ] [8]Trying to get property of non-object[G:\wamp\www\xiangmu\application\admin\controller\Link.php:21]
+
+---------------------------------------------------------------
+[ 2017-11-02T20:34:36+08:00 ] ::1 ::1 POST /xiangmu/public/admin/link/change.html
+[ error ] [8]未定义数组索引: guding_id[G:\wamp\www\xiangmu\application\admin\controller\Link.php:25]
+
+---------------------------------------------------------------
+[ 2017-11-02T20:53:23+08:00 ] ::1 ::1 POST /xiangmu/public/admin/link/update.html
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'IS NULL LIMIT 1' à la ligne 1[G:\wamp\www\xiangmu\thinkphp\library\think\db\Connection.php:362]
+
+---------------------------------------------------------------
+[ 2017-11-02T20:58:08+08:00 ] ::1 ::1 POST /xiangmu/public/admin/link/update.html
+[ error ] [0]缺少更新条件[G:\wamp\www\xiangmu\thinkphp\library\think\db\Query.php:1868]
+
+---------------------------------------------------------------
+[ 2017-11-02T21:00:34+08:00 ] ::1 ::1 POST /xiangmu/public/admin/link/update.html
+[ error ] [0]缺少更新条件[G:\wamp\www\xiangmu\thinkphp\library\think\db\Query.php:1868]
+
+---------------------------------------------------------------
+[ 2017-11-02T21:01:37+08:00 ] ::1 ::1 GET /xiangmu/public/admin/link/change.html?guding_id=3
+[ error ] [8]未定义数组索引: id[G:\wamp\www\xiangmu\application\admin\controller\Link.php:24]
+
+---------------------------------------------------------------
+[ 2017-11-02T21:03:11+08:00 ] ::1 ::1 POST /xiangmu/public/admin/link/update.html
+[ error ] [0]缺少更新条件[G:\wamp\www\xiangmu\thinkphp\library\think\db\Query.php:1868]
+
+---------------------------------------------------------------

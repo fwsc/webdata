@@ -1,0 +1,47 @@
+<!--包含头部文件-->
+{include file="public/header" /}
+<body>上传的文件必须为为JPG，JPEG，png，gif文件格式其中一种，都不能大于15M(按右边按钮可以刷新)
+	<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+<div class="page-container">
+	<form class="form form-horizontal form-o2o-add" id="form-o2o-add" enctype="multipart/form-data" method="post" action="{:url('category/upload')}">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>产品名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="name" name="name">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>系列：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="select-box">
+				<select name="parent_category" class="select">
+				{foreach name="categorys" item="vo"}
+					<option value="{$vo.category}">{$vo.category}</option>
+				
+				{/foreach}
+
+				</select>
+				</span>
+			</div>
+		</div>
+		<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>上传产品图片：</label>
+	
+ 		<input  type="file" multiple="true" name="picfile">
+	
+		</div>
+		
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+			<p>	<input type="radio" value="1" name="tuijian"/>推荐</p>
+			<p> <input type="radio" value="0" checked="checked" name="tuijian">不推荐</p>
+				<button  type="submit" class="btn btn-primary radius" ><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+				
+				<button onClick="layer_close();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</div>
+</div>
+<!--包含头部文件-->
+{include file="public/footer" /}

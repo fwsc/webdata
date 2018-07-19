@@ -1,0 +1,36 @@
+[ 2017-11-16T19:52:17+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:85]
+
+---------------------------------------------------------------
+[ 2017-11-16T19:52:55+08:00 ] ::1 ::1 POST /xiangmu/public/admin/link/add.html
+[ error ] [0]数据表字段不存在:[link_name][G:\wamp\www\xiangmu\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:12:58+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function getSaveName() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:88]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:13:52+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function getSaveName() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:88]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:14:20+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function getSaveName() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:88]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:16:31+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function getSaveName() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:88]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:18:50+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function getSaveName() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:88]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:21:01+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function getSaveName() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:88]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:22:19+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function getSaveName() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:88]
+
+---------------------------------------------------------------

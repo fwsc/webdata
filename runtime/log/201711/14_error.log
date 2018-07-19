@@ -1,0 +1,36 @@
+[ 2017-11-14T20:00:02+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=21
+[ error ] [8]未定义数组索引: savename[G:\wamp\www\xiangmu\application\admin\controller\Category.php:143]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:00:30+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=21
+[ error ] [8]未定义变量: res[G:\wamp\www\xiangmu\application\admin\controller\Category.php:144]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:01:51+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=21&savename=20171108\4e5ac68921b847a9dc46add1901a6494.jpg
+[ error ] [8]未定义变量: res[G:\wamp\www\xiangmu\application\admin\controller\Category.php:144]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:02:57+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=21&savename=20171108\4e5ac68921b847a9dc46add1901a6494.jpg
+[ error ] [2]unlink(/xiangmu/public/static/index/images/20171108\4e5ac68921b847a9dc46add1901a6494.jpg): No such file or directory[G:\wamp\www\xiangmu\application\admin\controller\Category.php:143]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:03:58+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=21&savename=20171108\4e5ac68921b847a9dc46add1901a6494.jpg
+[ error ] [8]未定义数组索引: cat_pic[G:\wamp\www\xiangmu\application\admin\controller\Category.php:143]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:04:48+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=20&savename=20171108\2525a965843bc502c41e23c5f19a8f7c.jpg
+[ error ] [8]未定义数组索引: cat_pic[G:\wamp\www\xiangmu\application\admin\controller\Category.php:143]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:07:01+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=19&savename=20171108\646e259d310d18dd852ad91a21e2f004.jpg
+[ error ] [8]未定义数组索引: cat_pic[G:\wamp\www\xiangmu\application\admin\controller\Category.php:143]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:25:05+08:00 ] ::1 ::1 GET /xiangmu/public/index/index/index.html
+[ error ] [8]未定义数组下标: 3[G:\wamp\www\xiangmu\application\index\controller\Index.php:53]
+
+---------------------------------------------------------------
+[ 2017-11-14T20:38:50+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/dele.html?id=25&savename=20171114\dfea516ba71ef2fe8cbfcfffb3f3f9fe.jpg
+[ error ] [8]未定义数组索引: cat_pic[G:\wamp\www\xiangmu\application\admin\controller\Category.php:143]
+
+---------------------------------------------------------------

@@ -1,0 +1,24 @@
+[ 2017-10-30T20:10:59+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/add.html
+[ error ] [8]未定义变量: citys[G:\wamp\www\xiangmu\runtime\temp\dd881872a671d4ee38c725076e58c500.php:51]
+
+---------------------------------------------------------------
+[ 2017-10-30T20:11:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/add.html
+[ error ] [8]未定义变量: citys[G:\wamp\www\xiangmu\runtime\temp\dd881872a671d4ee38c725076e58c500.php:51]
+
+---------------------------------------------------------------
+[ 2017-10-30T20:58:16+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/add.html
+[ error ] [8]未定义变量: citys[G:\wamp\www\xiangmu\runtime\temp\dd881872a671d4ee38c725076e58c500.php:51]
+
+---------------------------------------------------------------
+[ 2017-10-30T20:58:47+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/add.html
+[ error ] [8]未定义数组索引: name[G:\wamp\www\xiangmu\runtime\temp\dd881872a671d4ee38c725076e58c500.php:123]
+
+---------------------------------------------------------------
+[ 2017-10-30T20:59:10+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/add.html
+[ error ] [8]未定义数组索引: name[G:\wamp\www\xiangmu\runtime\temp\dd881872a671d4ee38c725076e58c500.php:125]
+
+---------------------------------------------------------------
+[ 2017-10-30T21:16:31+08:00 ] ::1 ::1 GET /xiangmu/public/admin/news/index.html
+[ error ] [8]未定义数组索引: title[G:\wamp\www\xiangmu\runtime\temp\e56fb6eb371ba39151cb180a9ec312f6.php:59]
+
+---------------------------------------------------------------

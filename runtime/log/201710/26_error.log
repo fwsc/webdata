@@ -1,0 +1,180 @@
+[ 2017-10-26T19:00:38+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:00:41+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:01:07+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:02:32+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:03:41+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:09:11+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:09+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:10+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:16+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:18+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:20+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:10:22+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:11:26+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:16:46+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:16:47+08:00 ] 127.0.0.1 127.0.0.1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:18:29+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:18:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:18:36+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:18:43+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:20:33+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:22:08+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:40]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:22:35+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/add.html
+[ error ] [8]未定义数组索引: parent_category[G:\wamp\www\xiangmu\application\admin\controller\Category.php:41]
+
+---------------------------------------------------------------
+[ 2017-10-26T19:51:07+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:02:28+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:17:01+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:24:02+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:31:27+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:39:13+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:39:57+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:41:11+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:43:08+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:44:29+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-26T20:58:37+08:00 ] ::1 ::1 POST /xiangmu/public/admin/category/upload.html
+[ error ] [1]Call to a member function rule() on a non-object[G:\wamp\www\xiangmu\application\admin\controller\Category.php:69]
+
+---------------------------------------------------------------
+[ 2017-10-26T21:07:37+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T21:08:20+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T21:08:56+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'xinchu.men_dingdan' n'existe pas[G:\wamp\www\xiangmu\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2017-10-26T21:09:32+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [8]未定义变量: categorys[G:\wamp\www\xiangmu\application\admin\controller\Category.php:27]
+
+---------------------------------------------------------------
+[ 2017-10-26T21:34:35+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [4]语法错误: unexpected '='[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:62]
+
+---------------------------------------------------------------
+[ 2017-10-26T21:35:22+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [4]语法错误: unexpected '='[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:62]
+
+---------------------------------------------------------------
+[ 2017-10-26T22:46:55+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [4]语法错误: unexpected '='[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:62]
+
+---------------------------------------------------------------
+[ 2017-10-26T22:47:01+08:00 ] ::1 ::1 GET /xiangmu/public/admin/category/index.html
+[ error ] [4]语法错误: unexpected '='[G:\wamp\www\xiangmu\runtime\temp\bbdf322fa4598c531c95669a19536580.php:62]
+
+---------------------------------------------------------------

@@ -1,0 +1,12 @@
+[ 2017-11-04T19:25:20+08:00 ] ::1 ::1 GET /xiangmu/public/index
+[ error ] [1]Call to undefined method app\index\controller\Index::fetch()[G:\wamp\www\xiangmu\application\index\controller\Index.php:12]
+
+---------------------------------------------------------------
+[ 2017-11-04T19:25:41+08:00 ] ::1 ::1 GET /xiangmu/public/index.php/index
+[ error ] [1]Call to undefined method app\index\controller\Index::fetch()[G:\wamp\www\xiangmu\application\index\controller\Index.php:12]
+
+---------------------------------------------------------------
+[ 2017-11-04T19:36:22+08:00 ] ::1 ::1 GET /xiangmu/public/index.php/index
+[ error ] [1]Call to undefined method app\index\controller\Index::fetch()[G:\wamp\www\xiangmu\application\index\controller\Index.php:12]
+
+---------------------------------------------------------------
